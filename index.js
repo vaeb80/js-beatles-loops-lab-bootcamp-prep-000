@@ -2,9 +2,9 @@
 function theBeatlesPlay ( musicians, instruments){
   var temp =[]
   for (i = 0; i < musicians.length ; i++){
-  
-  console.log(`${musicians[0]} plays ${instruments[0]}`)
-  return
+  temp.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+  return temp
 }
 function johnLennonFacts (facts){
   return
