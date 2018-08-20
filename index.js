@@ -1,6 +1,10 @@
 // add solution here
 function theBeatlesPlay ( musicians, instruments){
-  return
+  var temp = []
+  for ( n = 0 ; n < musicians.length ; n++){
+    temp.push(`${musicians[n]} plays ${instruments[n]}`)
+  }
+  return temp
 }
 function johnLennonFacts (facts){
   return
