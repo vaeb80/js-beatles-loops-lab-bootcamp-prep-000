@@ -2,7 +2,8 @@
 function theBeatlesPlay ( musicians, instruments){
   var temp =[]
   for (i = 0; i < musicians.length ; i++){
-  temp.push(`${musicians[i]} plays ${instruments[i]}`)
+    var sentence = `${musicians[i]} plays ${instruments[i]}`
+    temp.push(sentence)
   }
   return temp
 }
