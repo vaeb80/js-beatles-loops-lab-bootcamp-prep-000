@@ -7,7 +7,13 @@ function theBeatlesPlay ( musicians, instruments){
   return temp
 }
 function johnLennonFacts (facts){
-  return
+  var temp =[]
+  var i = facts.length - 1
+  while ( i >= 0){
+    temp.push(`${facts[i]}!!!`)
+    i--
+  }
+  return temp
 }
 function iLoveTheBeatles(n){
   var temp = []
