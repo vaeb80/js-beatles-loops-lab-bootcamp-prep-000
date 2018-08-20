@@ -1,7 +1,7 @@
 // add solution here
 function theBeatlesPlay ( musicians, instruments){
   var temp =[]
-  for
+  for (i = 0; i < musicians.length ; i++){
   
   console.log(`${musicians[0]} plays ${instruments[0]}`)
   return
